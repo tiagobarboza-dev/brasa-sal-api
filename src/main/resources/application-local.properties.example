@@ -1,0 +1,5 @@
+# Copie para application-local.properties (está no .gitignore) e ajuste.
+# Rode com:  mvn spring-boot:run -Dspring-boot.run.profiles=local
+spring.datasource.url=jdbc:postgresql://localhost:5432/brasa_sal
+spring.datasource.username=postgres
+spring.datasource.password=TROQUE_PELA_SUA_SENHA
